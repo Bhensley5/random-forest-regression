@@ -27,6 +27,8 @@ from sklearn.ensemble import RandomForestRegressor
 regressor = RandomForestRegressor(n_estimators = 1000, random_state = 0)
 regressor.fit(X, y)
 
+
+
 # Predicting a new result
 y_pred = regressor.predict(6.5)
 
